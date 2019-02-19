@@ -22,17 +22,19 @@ public class MainDZ2 {
             arr[2][3] = "123";
 
             arr[3][0] = "123";
-            arr[3][1] = "=123";
-            arr[3][2] = "123";
+            arr[3][1] = "123";
+            arr[3][2] = "=123";
             arr[3][3] = "123";
 
             //arr[3][4] = "123";
 
             sumArr(arr);
+
         }catch (ArrayIndexOutOfBoundsException a){
             //a.printStackTrace();
             System.out.println("Ошибка индексации элемента массива: " + a);
         }
+
     }
 
     private static void sumArr(String[][] arr) {
