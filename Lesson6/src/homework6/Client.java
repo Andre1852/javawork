@@ -1,5 +1,5 @@
 package homework6;
-
+//Малыгин Андрей, домашнее задание к 6 уроку Java2.
 import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

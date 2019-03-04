@@ -1,5 +1,5 @@
 package homework6;
-
+//Малыгин Андрей, домашнее задание к 6 уроку Java2.
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
