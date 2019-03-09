@@ -31,6 +31,12 @@ public class ClientHandler implements Runnable {
                 while (true) {
                     if (inMsg.hasNext()) {
                         String clientMsg = inMsg.nextLine();
+
+                        //строку сообщения можно разбить в виде массива на отдельные слова
+                        //где "" место разделения, а 1 кол-во разделений и величина массива
+                        //String[] split = clientMsg.split("", 1);
+                        //split[0].equalsIgnoreCase("/w");
+
                         if (clientMsg.equalsIgnoreCase("QUIT")) {
                             break;
                         }
