@@ -20,7 +20,7 @@ public class Server {
                 clientSocket = serverSocket.accept();
                 ClientHandler client = new ClientHandler(clientSocket, this);
                 clientHandlers.add(client);
-                new Thread(client);
+                new Thread(client).start();
             }
         }catch (Exception e){
             e.printStackTrace();
